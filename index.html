@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise — Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="logo.jpg" alt="SpendWise Logo" class="brand-logo">
+                <h2>SpendWise</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">Transactions</a>
+                <a href="#">Analytics</a>
+                <a href="#">Budgets</a>
+                <a href="#">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div>
+                    <h1>Financial Overview</h1>
+                    <p>Welcome back! Here is your spending summary.</p>
+                </div>
+                 <div class="user-profile">
+                    <span>Abdullahi Ali</span>
+                </div>
+            </header>
+
+            <!-- Dashboard Cards Grid (tabindex="0" added for keyboard focus) -->
+            <section class="cards-grid">
+                <div class="category-card" tabindex="0">
+                    <span class="icon">🍔</span>
+                    <h3>Food & Dining</h3>
+                    <p class="amount">$450.50</p>
+                </div>
+
+                <div class="category-card" tabindex="0">
+                    <span class="icon">🚗</span>
+                    <h3>Transport</h3>
+                    <p class="amount">$145.00</p>
+                </div>
+
+                <div class="category-card" tabindex="0">
+                    <span class="icon">🏠</span>
+                    <h3>Rent & Housing</h3>
+                    <p class="amount">$1,250.00</p>
+                </div>
+
+                <div class="category-card" tabindex="0">
+                    <span class="icon">🎬</span>
+                    <h3>Entertainment</h3>
+                    <p class="amount">$70.00</p>
+                </div>
+
+                <div class="category-card" tabindex="0">
+                    <span class="icon">💰</span>
+                    <h3>Savings</h3>
+                    <p class="amount">$900.00</p>
+                </div>
+
+                <div class="category-card" tabindex="0">
+                    <span class="icon">💡</span>
+                    <h3>Utilities</h3>
+                    <p class="amount">$155.20</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
